@@ -5,6 +5,7 @@ local string	= string
 local table		= table
 local unpack	= unpack
 local math		= math
+local upperMap, lowerMap = include( "includes/util/utf8_casemap.lua" ) -- case mapping tables for upper/lower
 
 module( "utf8" )
 
